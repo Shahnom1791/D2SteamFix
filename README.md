@@ -4,12 +4,6 @@ D2SteamFix is a launch wrapper for Destiny 2 intended to help alleviate frame pa
 
 Please note that blocking the Steam Overlay DLLs can also affect overlay-dependent features such as Steam Input, notifications, Game Recording, and Remote Play. This program temporarily changes only the ACL metadata of the overlay DLLs; it does not alter their contents. It does not inject code, inspect process memory, modify game files, change Steam configuration, or bypass BattlEye.
 
-## Security Notice
-
-The published binary is currently being detected by Microsoft Defender as a **false positive**. We have submitted this to Microsoft and are awaiting a response.
-
-Users who prefer not to run the prebuilt binary can review the source code and build the program locally using instructions below.
-
 ## Installation
 
 Download [steamfix.exe](https://pkg.d2checkpoint.com/D2SteamFix/steamfix.exe) and place it directly in your game's directory.
@@ -46,3 +40,9 @@ make.cmd configure
 ```batch
 make.cmd build
 ```
+
+## Windows Defender
+
+The published binary may be flagged as a false positive by Windows Defender. This is a known issue and Microsoft has confirmed that it was a false positive and has removed it.
+
+If your Windows Defender still reports the old detection, [please follow these instructions to clear cached detections and update malware definitions.](docs/WINDOWS_DEFENDER.md)
